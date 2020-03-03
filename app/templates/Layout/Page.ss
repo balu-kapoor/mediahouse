@@ -1,0 +1,3 @@
+<% include Banner %>
+    $Content
+$Form

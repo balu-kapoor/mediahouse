@@ -1,0 +1,164 @@
+.col-travel-sm { width: 28%; }
+.col-travel-med { width: 44%; }
+
+@media (max-width: 768px){
+  .col-travel-sm, .col-travel-med { width: 100%; }
+}
+
+.col-travel-sm img { max-width: 296px; }
+.col-travel-med img { max-width: 459px; }
+
+#logos .logo-section {
+  border: 1px solid #01B0F1; border-radius: 5px;
+  background-color: #060709; margin-bottom: 15px;
+  text-align: center;
+}
+#logos .logo-section img {
+  text-align: center; width: 100%; height: auto;
+}
+#logos .logo-section h3 {
+  background-color: #01B0F1; color: #ffffff; text-align: center; font-size: 18px; padding: 0.6em; margin: 0.2em 0;
+}
+#logos .col-md-2 {
+  text-align: center; color: #ffffff; font-size: 16px;
+}
+
+#logos {
+  padding-top: 1em; margin-bottom: 1.3em;
+}
+
+.travel-strapline {
+  color: #ffffff; font-size: 1.2em; margin: 0.5em 0 1em; text-align: center;
+}
+
+.bg-dark {
+  /*background-color: #232323;*/
+  background-color: #171616;
+}
+
+
+/*---
+sub nav buttons
+---*/
+.sub-nav > div {
+  padding: 5px;
+}
+.sub-nav > div span {
+  display: block; height: 40px;
+  /*border: 2px solid #ee4c87; border-radius: 10px;*/
+  font-family: "Lato-Bold", Verdana, sans-serif;
+  color: #ee4c87;
+  text-align: center; padding: 5px 0;
+  transition: all ease 0.2s;
+}
+.sub-nav > div span:hover {
+  /*background-color: #26838b;*/
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/*==============
+FLEX
+==============*/
+.flex-wrap {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  align-items: stretch;
+  /*align-content: stretch;*/
+  height: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+ }
+
+ .flex-item {
+   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+   display: -ms-flexbox;      /* TWEENER - IE 10 */
+   display: -webkit-flex;     /* NEW - Chrome */
+   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+ }
+
+ /*---
+ logo section v2
+ ---*/
+.logo-area {
+  display: block;
+  background: white;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+ .logo-area h3 {
+   display: block; width: 100%;
+   color: #5c5c5c;
+   text-align: center; font-size: 18px; padding: 0.6em; margin: 0.6em 0 0.4em;
+   font-weight: bold; text-transform: uppercase; letter-spacing: 1px;
+   font-size: 24px;
+ }
+
+ .c-line-center {
+   background-color: #ee4c87;
+   height: 3px;
+   margin: 10px auto 10px;
+   width: 30px;
+ }
+
+/*---
+logo lists
+---*/
+ul.logo-list {
+  list-style-type: none;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  align-items: center; /* vertical */
+  align-content: stretch; /* horizontal */
+  height: 100%;
+  flex-wrap: wrap;
+  /*flex-wrap: nowrap;*/
+  flex-direction: row;
+  /*----*/
+  /*justify-content: space-around;*/
+  justify-content: center;
+}
+
+ul.logo-list li {
+  /*flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;*/
+  text-align: center;
+  /*-------*/
+  display: inline-block;
+  /*-------*/
+  padding: 15px 35px;
+}
+
+ul.logo-list li img {
+  /*max-width: 100%; */
+  max-width: 145px;
+  width: auto; height: auto;
+  max-height: 120px;
+}
+
+@media( max-width: 1200px ){
+  ul.logo-list li img {
+    max-width: 150px;
+  }
+}
+
+@media( max-width: 768px ){
+  ul.logo-list li img {
+    max-width: 125px;
+  }
+}
+
+/*---more buttons---*/
+#features .more {
+  margin-bottom: 0.6em;
+}
+.c-content-feature-4{margin-bottom: 30px;}

@@ -1,0 +1,158 @@
+body {
+  color: #ECF0F1;
+}
+
+.container p {
+  line-height: 1.35em;
+}
+
+.c-content-box.c-size-md.team {
+    /*padding: 25px 0 60px;*/
+    padding: 0;
+}
+
+
+
+/*--headings--*/
+h2 {
+  font-size: 24px;
+}
+.c-line-center {
+  background-color: #ee4c87;
+  height: 3px;
+  margin: 15px auto 15px;
+  width: 30px;
+}
+.c-line-left {
+  background-color: #ee4c87;
+  height: 3px;
+  margin: 15px 0 15px;
+  width: 30px;
+}
+
+/*--divider--*/
+.ee-divider.c-layout-breadcrumbs-1.c-bgimage {
+    padding: 50px 0;
+}
+.ee-divider h2 {
+  font-size: 30px;
+}
+
+/*==============
+FLEX
+==============*/
+.flex-wrap {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  align-items: stretch;
+  /*align-content: stretch;*/
+  height: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+ }
+
+ .flex-item {
+   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+   display: -ms-flexbox;      /* TWEENER - IE 10 */
+   display: -webkit-flex;     /* NEW - Chrome */
+   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+ }
+/*==============
+TEAM BLOCKS
+==============*/
+.c-content-box.team .container-fluid {
+  /*padding: 0 15px;*/
+  padding: 0 15px;
+  width: 100%;
+}
+
+.bg-turquoise {
+  background-color: #ee4c87;
+}
+.bg-green {
+  background-color: #27AE61;
+}
+.bg-light-green {
+  background-color: #2FCC71;
+}
+.bg-purple {
+  background-color: #8F44AD;
+}
+.bg-orange {
+  background-color: #D55401;
+}
+.bg-red {
+  background-color: #C1392B;
+}
+.bg-silver {
+  background-color: #BEC3C7;
+}
+.bg-blue {
+  background-color: #2A80B9;
+}
+
+.c-content-box .container-fluid .row.col-md-6 {
+  padding: 15px 30px;
+}
+.c-content-box .container-fluid .col-md-6.team-block {
+  padding: 0;
+}
+
+@media (max-width:986px){
+  .c-content-box .container-fluid .col-md-6.team-block .flex-wrap div{
+    min-height: 150px;
+  }
+  .c-content-box .container-fluid .row.flex-wrap:nth-child(even){
+    flex-wrap:wrap-reverse;
+  }
+}
+
+.team-block > .flex-wrap {
+  flex-wrap:nowrap;
+}
+.team-block > .flex-wrap div{
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  text-align: center;
+  /*-------*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.c-content-box .container-fluid .team-content {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.team-content .team-title {
+  text-align: center;
+
+}
+.team-content .team-text{
+  max-width: 492px;
+  margin: auto;
+}
+.team-content .team-title h3 {
+  color: #ffffff; font-size: 24px;
+  font-family: "Lato-Bold", Verdana, sans-serif;
+  text-transform: uppercase;
+  margin: 10px 0 5px;
+}
+
+.team-content .team-title h4 {
+  color: #BBBBBB; font-size: 20px;
+  font-family: "Lato-Bold", Verdana, sans-serif;
+}
+
+.team-content .more {
+  margin-left: auto; margin-right: auto;
+  display: inline-block;
+  text-transform: uppercase;
+}

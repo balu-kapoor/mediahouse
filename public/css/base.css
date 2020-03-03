@@ -18,13 +18,13 @@
 @font-face {
     font-family: FuturaBT-Medium;
     src:url(../fonts/futura/Futura-CondensedLight.otf);
-    src:url(../fonts/futura/Futura\ Bold\ font.ttf)
-    format("truetype"),
+    /* src:url(../fonts/futura/Futura\ Bold\ font.ttf), */
+    src:url(../fonts/futura/futura\ light\ bt.ttf),
     url(../fonts/futura/Futura\ Bold\ Italic\ font.ttf),
     url(../fonts/futura/Futura\ Extra\ Black\ font.ttf),
-    url(../fonts/futura/futura\ light\ bt.ttf),
     url(../fonts/futura/futura\ medium\ bt.ttf),
-    url(../fonts/futura/futura\ medium\ condensed\ bt.ttf);
+    url(../fonts/futura/futura\ medium\ condensed\ bt.ttf) 
+    format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -26229,3 +26229,21 @@ RESPONSIVE FIXES
 .m-top {
     margin-top: 2em;
 } 
+.testimonial-text {
+    margin-top: 4em;
+}
+.btn-pink {
+    background: #e61f67;
+    display: inline-block;
+    padding: 4px 10px 2px;
+    color: #fff;
+}
+.home-table td {
+    font-family: 'Lato-Regular';
+    font-size: 1rem;
+    color: #fff;
+    padding: 5px 10px;
+}
+.home-table {
+    background: rgba(88, 88, 88, 1);
+}

@@ -40,5 +40,9 @@ namespace {
             Requirements::javascript('plugins/vide/jquery.vide.js');           
             Requirements::javascript('js/custom.js');
         }
+
+        public function getYear() {
+            return date('Y');
+        }
     }
 }

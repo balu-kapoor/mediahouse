@@ -3,7 +3,7 @@
 <head>
     <base>
     <!--[if lte IE 6]></base><![endif]-->
-<title>$title - $SiteConfig.Title</title>
+    <title>$title - $SiteConfig.Title</title>
     $MetaTags
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 

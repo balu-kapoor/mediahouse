@@ -26221,8 +26221,11 @@ RESPONSIVE FIXES
 }
 .pink-text-stroke {
     font-weight: bold !important;
-    font-size: 40px;
+    font-size: 2.5rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     color: #e71f67 !important;
 }
+.m-top {
+    margin-top: 2em;
+} 

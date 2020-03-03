@@ -1,18 +1,10 @@
 <section class="c-layout-revo-slider c-layout-revo-slider-11">
     <!-- ONLY LOGO ON HEADER -->
-    <div class="only-logo center">
+    <div class="only-logo center customin customout"
+        data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
+        data-transform_out="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:600;e:Back.easeInOut;" data-splitin="none"
+        data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="600">
         <img src="/images/logo.png" alt="experience engine" style="max-height:120px">
-        <div class="container">
-            <div id="banner-contact" class="row hidden">
-                <div class="col-sm-6 text-right contact-wrap">
-                    <span class="contact"><i class="icon-phone"></i> +44 (0) 1245 207 888</span>
-                </div>
-                <div class="col-sm-6 text-left contact-wrap">
-                    <span class="contact"><i class="icon-envelope"></i> <a
-                            href="mailto:info@experienceengine.com">info@experienceengine.com</a></span>
-                </div>
-            </div>
-        </div>
     </div> <!-- /END ONLY LOGO ON HEADER -->
     <div class="tp-banner-container c-arrow-white" data-bullets-pos="center">
 
@@ -42,7 +34,7 @@
                         <h3
                             class="c-main-title c-font-48 c-font-bold c-font-center c-font-uppercase c-font-white c-block c-main-pink-title">
                             $BannerTitle </h3>
-                        <h4 class="pink-text-stroke c-font-bold c-font-center c-font-white">
+                        <h4 class="pink-text-stroke c-font-bold c-font-center c-font-white m-top">
                             $BannerSubTitle</h4>
                     </div>
 

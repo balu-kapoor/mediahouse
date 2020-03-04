@@ -88,7 +88,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12 wow animate fadeInDown center fact" data-wow-offset="120"
                 data-wow-delay="0.6s">
                 <div class="icon c-theme-color">
-                    <img src="$FourthIcon.URL" style="max-width: 75px;">>
+                    <img src="$FourthIcon.URL" style="max-width: 75px;">
                 </div>
                 <div class="desc text-center">
                     <h3>$FourthIconTitle</h3>

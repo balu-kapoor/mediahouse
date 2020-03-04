@@ -15,19 +15,49 @@
     font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
-    font-family: FuturaBT-Medium;
-    src:url(../fonts/futura/Futura-CondensedLight.otf);
-    /* src:url(../fonts/futura/Futura\ Bold\ font.ttf), */
-    src:url(../fonts/futura/futura\ light\ bt.ttf),
-    url(../fonts/futura/Futura\ Bold\ Italic\ font.ttf),
-    url(../fonts/futura/Futura\ Extra\ Black\ font.ttf),
-    url(../fonts/futura/futura\ medium\ bt.ttf),
-    url(../fonts/futura/futura\ medium\ condensed\ bt.ttf) 
-    format("truetype");
+    font-family: "Futura";
+    src: url("../fonts/futura/Futura\ Book\ font.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Futura";
+    src: url("../fonts/futura/futura\ light\ bt.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-}
+  }
+
+  @font-face {
+    font-family: "Futura";
+    src: url("../fonts/futura/Futura\ Light\ font.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "Futura";
+    src: url("../fonts/futura/futura\ medium\ bt.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Futura";
+    src: url("../fonts/futura/Futura\ Bold\ font.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Futura";
+    src: url("../fonts/futura/futura\ medium\ condensed\ bt.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+  }
+
 * {
     letter-spacing: 1px;
 }
@@ -220,7 +250,7 @@
 .icon-volume-off,
 .icon-wallet,
 .icon-wrench {
-    font-family: FuturaBT-Medium;
+    font-family: simple-line-icons;
     speak: none;
     font-style: normal;
     font-weight: 400;
@@ -5594,12 +5624,12 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
     width: 100%;
     max-width: auto;
     margin: 0 auto;
-    font-family: "FuturaBT-Medium", sans-serif !important;
+    font-family: "Futura", sans-serif !important;
 }
 .cbp-l-caption-desc,
 .cbp-l-caption-title,
 .cbp-l-inline-desc {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
 }
 .cbp-popup-wrap {
     z-index: 10005;
@@ -5653,7 +5683,7 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 .cbp-l-filters-buttonCenter .cbp-filter-item,
 .cbp-l-filters-work .cbp-filter-item {
     border-radius: 0;
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     background-color: transparent;
     border: 1px solid #696969;
     color: #e2e2e2;
@@ -5677,7 +5707,7 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 }
 .cbp-l-inline-subtitle,
 .cbp-l-inline-title {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     color: #3f444a;
     text-transform: uppercase;
 }
@@ -5716,19 +5746,19 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 }
 .cbp-l-grid-masonry-projects-title {
     color: #fff;
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 17px;
     font-weight: 400;
 }
 .cbp-l-grid-masonry-projects-desc {
     margin-top: 2px;
     color: #7d8691;
-    font-family: FuturaBT-Medium, sans-serif;
+    font-family: Futura, sans-serif;
     font-size: 13px;
 }
 .cbp-l-project-subtitle,
 .cbp-l-project-title {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
 }
 .cbp-l-project-title {
     color: #3f444a;
@@ -5746,7 +5776,7 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 .cbp-l-project-details-title span,
 .cbp-l-project-related-link {
     color: #3f444a;
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     text-transform: uppercase;
 }
 .cbp-l-project-related-link {
@@ -5779,7 +5809,7 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
     display: block;
 }
 .cbp-l-project-desc-text {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     color: #626a73;
     font-size: 17px;
     font-weight: 300;
@@ -5789,7 +5819,7 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 .cbp-l-project-details-list > li > strong,
 .cbp-l-project-related-title {
     font-size: 16px;
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
 }
 .cbp-l-project-details-title {
     margin-bottom: 10px;
@@ -5826,7 +5856,7 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 .cbp-l-grid-agency-title,
 .cbp-l-grid-projects-title,
 .cbp-l-grid-work-title {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     color: #3f444a;
     font-size: 18px;
     font-weight: 600;
@@ -5834,17 +5864,17 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 .cbp-l-grid-agency-desc,
 .cbp-l-grid-projects-desc,
 .cbp-l-grid-work-desc {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 13px;
     color: #7a838e;
 }
 .cbp-l-filters-alignCenter,
 .cbp-l-filters-text {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
 }
 .cbp-l-filters-alignCenter .cbp-l-filters-text-sort,
 .cbp-l-filters-text .cbp-l-filters-text-sort {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #626a73;
@@ -5852,7 +5882,7 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 .cbp-l-filters-alignCenter .cbp-filter-item,
 .cbp-l-filters-text .cbp-filter-item {
     text-transform: uppercase;
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
     font-weight: 600;
@@ -5860,25 +5890,25 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
 }
 .cbp-popup-lightbox-title {
     color: #eee;
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
 .cbp-l-filters-underline .cbp-filter-item.cbp-filter-item-active {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 18px;
     font-weight: 600;
     cursor: default;
 }
 .cbp-l-filters-underline .cbp-filter-item {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 18px;
     font-weight: 600;
     border-bottom: 3px solid transparent;
     color: #3f444a;
 }
 .cbp-caption-expand .cbp-caption-defaultWrap {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #3f444a;
@@ -5891,13 +5921,13 @@ fieldset[disabled] .c-btn-border-2x.c-btn-dark:not(.btn-no-focus):focus {
     color: #cad5e0;
 }
 .cbp-caption-expand .cbp-l-caption-body {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: #3f444a;
 }
 .cbp-l-grid-masonry-projects .cbp-l-caption-body a {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     line-height: 16px;
     font-size: 12px;
     font-weight: 4600;
@@ -6489,7 +6519,7 @@ h3 {
 }
 body {
     color: #afafaf;
-    font-family: FuturaBT-Medium, sans-serif;
+    font-family: Futura, sans-serif;
     padding: 0;
     margin: 0;
     font-weight: 300;
@@ -9564,7 +9594,7 @@ h1 {
     .tooltip
     .tooltip-inner {
     border-radius: 0;
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
@@ -17561,6 +17591,7 @@ h1 {
 }
 .HomePage .c-content-testimonial-2-slider .c-title {
     top: 0;
+    font-weight: 700;
 }
 .c-content-testimonial-2-slider .owl-controls {
     margin: 0;
@@ -24062,7 +24093,7 @@ ul {
 /*======= Reset ======== */
 body {
     background: #232323;
-    /*font-family: 'FuturaBT-Medium', sans-serif;
+    /*font-family: 'Futura', sans-serif;
     font-size: 106.3%;
     font-weight: 300;
     color: #c8c8c8;
@@ -24196,7 +24227,7 @@ th {
 h1,
 h2,
 h3 {
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-weight: normal;
 }
 h2 {
@@ -24338,7 +24369,7 @@ h5 {
 
 .sticky-navigation .main-navigation li a {
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 13px;
     text-transform: uppercase;
     color: #c8c8c8;
@@ -24487,6 +24518,7 @@ object {
 -----------------------------------------*/
 
 .testimonials {
+    font-size: 1.3rem;
     color: #ffffff;
 }
 
@@ -24628,7 +24660,7 @@ object {
 
 .single-package .price .month {
     font-size: 16px;
-    font-family: "FuturaBT-Medium", sans-serif;
+    font-family: "Futura", sans-serif;
     font-weight: 300;
 }
 
@@ -25271,7 +25303,7 @@ form .message.error {
     line-height: 1.3333333;
     border: none;
     text-transform: uppercase;
-    font-family: FuturaBT-Medium, sans-serif;
+    font-family: Futura, sans-serif;
     font-weight: 500;
 }
 #Form_ShowNewsletterForm_action_SignupAction:hover,
@@ -26242,8 +26274,26 @@ RESPONSIVE FIXES
     font-family: 'Lato-Regular';
     font-size: 1rem;
     color: #fff;
-    padding: 5px 10px;
 }
 .home-table {
     background: rgba(88, 88, 88, 1);
+    white-space: nowrap;
 }
+.home-table td:before {
+    content: '\2713';
+    display:inline-block;
+    color:#fff;
+    padding:0 6px 0 0;
+}
+.home-button {
+    font-weight: 700;
+}
+h4.pink-text-stroke.c-main-title {
+    background: transparent;
+}
+@media(max-width:741px) {
+    .res-table {
+        overflow: scroll;
+    }
+}
+

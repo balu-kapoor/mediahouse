@@ -7,6 +7,18 @@ namespace {
     use SilverStripe\Assets\File;
     use SilverStripe\AssetAdmin\Forms\UploadField;
     use SilverStripe\Forms\TextField;
+    use SilverStripe\Forms\GridField\GridFieldToolbarHeader;
+    use Mediahouse\Strip;
+    use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
+    use SilverStripe\Forms\GridField\GridField;
+    use SilverStripe\Forms\GridField\GridFieldDeleteAction;
+    use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
+    use SilverStripe\Forms\GridField\GridFieldConfig_RelationEditor;
+    use SilverStripe\Forms\GridField\GridFieldAddNewButton;
+    use Symbiote\GridFieldExtensions\GridFieldAddNewMultiClass;
+    use SilverStripe\Forms\GridField\GridFieldConfig;
+    use Symbiote\GridFieldExtensions\GridFieldTitleHeader;
+
     class Page extends SiteTree
     {
         private static $db = [
@@ -17,6 +29,10 @@ namespace {
         private static $has_one = [
             'BannerImage' => Image::class,
             'BannerVideo' => File::class
+        ];
+
+        private static $belongs_many_many = [
+            'Strips'   => Strip::class,
         ];
 
         private static $owns = [
@@ -38,8 +54,25 @@ namespace {
 
             $banner_video
             ->setFolderName('banner-videos')
-            ->getValidator()->setAllowedExtensions(array('mp4'));
-   
+            ->getValidator()->setAllowedExtensions(array('mp4'));           
+            
+            $grid = new GridField(
+                'Strips',
+                'Strips',
+                $this->Strips(),
+                new GridFieldConfig_RelationEditor()
+            );
+
+            $grid->getConfig()
+            ->removeComponentsByType(GridFieldAddNewButton::class)
+            ->addComponents(
+                new GridFieldAddNewMultiClass(),
+                new GridFieldDeleteAction(),
+                new GridFieldSortableRows('StripID')
+            );
+
+            $fields->addFieldToTab('Root.Strips', $grid);
+
             return $fields;
        }
     }

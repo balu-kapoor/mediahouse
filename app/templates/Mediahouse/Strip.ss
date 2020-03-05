@@ -1,0 +1,1 @@
+<h2>Stript render</h2>

@@ -2,6 +2,5 @@
 !.gitignore
 !.htaccess
 !web.config
-!Uploads
+!Uploads/*
 !spinner.gif
-!Uploads/Services

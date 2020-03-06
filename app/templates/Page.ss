@@ -41,9 +41,9 @@
         <div class="status">&nbsp;</div>
     </div>
     <% include Header %>
-    <div class="c-lhortName == 'Blog' %>
-        <% include Blayout-page">
-        <% if $ClassName.Sog %>
+    <div class="c-layout-page">
+        <% if $ClassName.ShortName == 'Blog' %>
+        <% include Blog  %>
         <% else_if $ClassName.ShortName == 'BlogPost' %>
         <% include BlogPost %>
         <% else %>

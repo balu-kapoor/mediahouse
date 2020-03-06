@@ -42,7 +42,13 @@
     </div>
     <% include Header %>
     <div class="c-layout-page">
+        <% if $ClassName.ShortName == 'Blog' %>
+        <% include Blog %>
+        <% else_if $ClassName.ShortName == 'BlogPost' %>
+        <% include BlogPost %>
+        <% else %>
         $Layout
+        <% end_if %>
     </div>
     <% include Footer %>
 </body>

@@ -23,7 +23,7 @@
         </h1>
         <% if $PaginatedList.Exists %>
         <% loop $PaginatedList %>
-        <% include SilverStripe\\Blog\\PostSummary %>
+        <% include Blog\\PostSummary %>
         <% end_loop %>
         <% else %>
         <p><%t SilverStripe\\Blog\\Model\\Blog.NoPosts 'There are no posts' %></p>

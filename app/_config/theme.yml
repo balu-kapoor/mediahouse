@@ -1,8 +1,8 @@
 ---
-Name: mytheme
+Name: Mediahub
 ---
 SilverStripe\View\SSViewer:
   themes:
     - "$public"
-    - "Mediahub"
+    - "$project"
     - "$default"

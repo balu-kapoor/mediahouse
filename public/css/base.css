@@ -26295,6 +26295,12 @@ h4.pink-text-stroke.c-main-title {
     .res-table {
         overflow: scroll;
     }
+    .c-layout-revo-slider .only-logo, .c-layout-revo-slider-11 .c-main-title {
+        transform: scale(.8);
+    }
+    .pink-text-stroke {
+        transform: scale(.7);
+    }
 }
 .icons-tray {
     min-height: 75px;
@@ -26302,3 +26308,14 @@ h4.pink-text-stroke.c-main-title {
     background-size: contain;
     background-position: center;
 }
+@media (max-width: 400px){
+    .m-shape-text {
+        transform: scale(.6);
+    }
+}
+@media (max-width: 1200px){
+    .m-shape-text {
+        transform: scale(.8);
+    }
+}
+

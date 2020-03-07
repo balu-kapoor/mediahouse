@@ -9,11 +9,11 @@ $(document).ready(function () {
         sliderLayout: "fullscreen",
         responsiveLevels: [2048, 1024, 778, 320],
         gridwidth: [1240, 1024, 778, 320],
-        gridheight: [868, 768, 960, 720],
+        gridheight: [868, 768, 500, 500],
         delay: 15000,
         startwidth: 1170,
         startheight: App.getViewPort().height,
-
+        autoHeight: 'on',
         touchenabled: "on",
 
         navigation: {

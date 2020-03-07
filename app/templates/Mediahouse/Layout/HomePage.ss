@@ -31,13 +31,11 @@
                         <h3
                             class="c-main-title c-font-48 c-font-bold c-font-center c-font-uppercase c-font-white c-block c-main-pink-title">
                             $BannerTitle </h3>
-                        <h4 class="pink-text-stroke c-main-title c-font-bold c-font-center c-font-white">
-                            $BannerSubTitle</h4>
 
                     </div>
 
-                    <div class="hidden tp-caption lft" data-x="center" data-y="center" data-voffset="130"
-                        data-speed="900" data-start="1200" data-transform_idle="o:1;"
+                    <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="130" data-speed="900"
+                        data-start="1200" data-transform_idle="o:1;"
                         data-transform_in="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;"
                         data-transform_out="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;">
                         <h4 class="pink-text-stroke c-font-bold c-font-center c-font-white">

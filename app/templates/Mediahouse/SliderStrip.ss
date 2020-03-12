@@ -1,7 +1,7 @@
 <div class="c-content-box c-size-md">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 wow animate fadeInLeft">
+            <div class="col-md-7 wow animate fadeInLeft">
                 <div class="c-content-media-2-slider" data-slider="owl">
                     <div class="owl-carousel owl-theme c-theme owl-single" data-single-item="true"
                         data-desktop-items="1" data-desktop-small-items="1" data-tablet-items="1" data-auto-play="6000">
@@ -16,7 +16,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 wow animate fadeInRight">
+            <div class="col-md-5 wow animate fadeInRight">
                 <div class="c-content-testimonial-2-slider" data-slider="owl">
                     <div class="c-title c-font-uppercase c-theme-bg">$ButtonTitle</div>
                     <div class="owl-theme c-theme owl-single" data-single-item="true" data-desktop-items="1"

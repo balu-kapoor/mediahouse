@@ -26297,7 +26297,7 @@ h4.pink-text-stroke.c-main-title {
         overflow: scroll;
     }
 }
-@media(max-width:400px) {
+@media(max-width:600px) {
     .c-layout-revo-slider .only-logo {
         transform: scale(.8);
     }

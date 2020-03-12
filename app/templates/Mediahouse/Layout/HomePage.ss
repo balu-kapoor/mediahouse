@@ -21,7 +21,7 @@
                         data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false"
                         data-nextslideatend="false"> </div>
 
-                    <div style="display:flex;flex-direction: column;" class="tp-caption customin customout"
+                    <div style="display:flex;flex-direction: column;" class="tp-caption tp-resizeme customin customout"
                         data-x="center" data-y="center" data-hoffset="" data-voffset="-30" data-speed="500"
                         data-start="1000" data-transform_idle="o:1;"
                         data-transform_in="rX:0.5;scaleX:0.75;scaleY:0.75;o:0;s:500;e:Back.easeInOut;"
@@ -34,11 +34,11 @@
 
                     </div>
 
-                    <div class="tp-caption lft" data-x="center" data-y="center" data-voffset="130" data-speed="900"
-                        data-start="1200" data-transform_idle="o:1;"
+                    <div class="tp-caption tp-resizeme lft" data-x="center" data-y="center" data-voffset="130"
+                        data-speed="900" data-start="1200" data-transform_idle="o:1;"
                         data-transform_in="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;"
                         data-transform_out="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;">
-                        <h4 class="pink-text-stroke c-font-bold c-font-center c-font-white">
+                        <h4 class="pink-text-stroke c-font-48 c-font-bold c-font-center c-font-white">
                             $BannerSubTitle</h4>
                         <div class="scroll-wrap"><a id="scroll" href="#"></a></div>
                     </div>

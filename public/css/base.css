@@ -24518,8 +24518,9 @@ object {
 -----------------------------------------*/
 
 .testimonials {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #ffffff;
+    font-weight: 500;
 }
 
 .testimonials .color-overlay {
@@ -26253,9 +26254,9 @@ RESPONSIVE FIXES
 }
 .pink-text-stroke {
     font-weight: bold !important;
-    font-size: 2.5rem;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #e71f67;
+    font-size: 3rem;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e71f67; */
     color: #fff !important;
 }
 .m-top {
@@ -26295,11 +26296,10 @@ h4.pink-text-stroke.c-main-title {
     .res-table {
         overflow: scroll;
     }
-    .c-layout-revo-slider .only-logo, .c-layout-revo-slider-11 .c-main-title {
+}
+@media(max-width:400px) {
+    .c-layout-revo-slider .only-logo {
         transform: scale(.8);
-    }
-    .pink-text-stroke {
-        transform: scale(.7);
     }
 }
 .icons-tray {
@@ -26308,16 +26308,7 @@ h4.pink-text-stroke.c-main-title {
     background-size: contain;
     background-position: center;
 }
-@media (max-width: 400px){
-    .m-shape-text {
-        transform: scale(.6) !important;
-    }
-}
-@media (max-width: 1200px){
-    .m-shape-text {
-        transform: scale(.8);
-    }
-}
+
 .scroll-wrap {
     width: 100%;
     height: 65px;

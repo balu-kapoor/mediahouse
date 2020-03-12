@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 wow animate fadeInLeft">
-                <div class="c-content-media-2-slider" data-slider="owl">
+                <div class="c-content-media-2-slider c-content-testimonial-2" data-slider="owl">
                     <div class="owl-theme c-theme">
                         <div class="c-title c-font-uppercase btn-pink home-button">$ButtonTitle</div>
 

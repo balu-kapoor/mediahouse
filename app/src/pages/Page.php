@@ -69,7 +69,7 @@ namespace {
                 new GridFieldAddNewMultiClass(),
                 new GridFieldDeleteAction(),
                 new GridFieldSortableRows('StripID')
-            );
+            );        
 
             $fields->addFieldToTab('Root.Strips', $grid);
 

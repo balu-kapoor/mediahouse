@@ -26121,12 +26121,12 @@ RESPONSIVE FIXES
 }
 
 .logo-parallax.c-bg-parallax.c-feature-bg.c-diagonal.c-content-left.c-border-right-dark-2 {
-    min-height: 70vh;
+    min-height: 60vh;
 }
 .logo-parallax.c-bg-parallax.c-feature-bg.c-diagonal.c-content-left.c-border-right-dark-2:after {
     content: "";
     background: #e71f67;
-    min-height: 70vh;
+    min-height: 60vh;
     width: 20%;
     display: block;
     position: absolute;
@@ -26136,7 +26136,7 @@ RESPONSIVE FIXES
 .logo-parallax.c-bg-parallax.c-feature-bg.c-diagonal.c-content-left.c-border-right-dark-2:before {
     content: "";
     background: #e71f67;
-    min-height: 70vh;
+    min-height: 60vh;
     width: 20%;
     display: block;
     position: absolute;
@@ -26150,7 +26150,7 @@ RESPONSIVE FIXES
     border-right: 30vw solid transparent;
     border-top: 35vh solid #e71f67;
     left: 20%;
-    height: 70vh;
+    height: 60vh;
 }
 .m-shape-text {
     position: absolute;
@@ -26161,7 +26161,7 @@ RESPONSIVE FIXES
     z-index: 1;
     font-weight: 800;
     color: #fff;
-    font-size: 3rem;
+    font-size: 1.5rem;
     height: 30vh;
 }
 .c-main-pink-title {
@@ -26254,9 +26254,9 @@ RESPONSIVE FIXES
 .pink-text-stroke {
     font-weight: bold !important;
     font-size: 2.5rem;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-    color: #e71f67 !important;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #e71f67;
+    color: #fff !important;
 }
 .m-top {
     margin-top: 2em;
@@ -26318,4 +26318,57 @@ h4.pink-text-stroke.c-main-title {
         transform: scale(.8);
     }
 }
-
+.scroll-wrap {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+}
+#scroll {
+    background: url(../images/double-chevron-arrow.png);
+    height: 45px;
+    width: 45px;
+    z-index: 1;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name:arrow;
+    animation-duration:1s;
+    animation-timing-function:linear;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+    animation-play-state:running;
+    -webkit-animation-name:arrow;
+    -webkit-animation-duration:1s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:normal;
+    -webkit-animation-play-state:running;
+}
+#scroll:hover {
+    opacity:.7;
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+    cursor: pointer;
+}
+@keyframes arrow
+	{
+	0%   {top:80px;}
+	25%   {top:85px;}
+	50%   {top:90px;}
+	75% {top:95px;}
+	100% {top:100px;}
+	}
+@-webkit-keyframes arrow
+	{
+        0%   {top:80px;}
+        25%   {top:85px;}
+        50%   {top:90px;}
+        75% {top:95px;}
+        100% {top:100px;}
+  }

@@ -1,7 +1,7 @@
 <section class="c-layout-revo-slider c-layout-revo-slider-11">
     <!-- ONLY LOGO ON HEADER -->
     <div class="only-logo center customin customout">
-        <img src="/images/logo.png" alt="experience engine" style="max-height:120px">
+        <img src="/images/logo.png" alt="experience engine" style="max-height:100px">
     </div> <!-- /END ONLY LOGO ON HEADER -->
     <div class="tp-banner-container c-arrow-white" data-bullets-pos="center">
 
@@ -40,10 +40,11 @@
                         data-transform_out="x:100;y:100;rX:120;scaleX:0.75;scaleY:0.75;o:0;s:900;e:Back.easeInOut;">
                         <h4 class="pink-text-stroke c-font-bold c-font-center c-font-white">
                             $BannerSubTitle</h4>
+                        <div class="scroll-wrap"><a id="scroll" href="#"></a></div>
                     </div>
+
                 </li>
                 <!--END -->
-
             </ul>
         </div>
     </div>

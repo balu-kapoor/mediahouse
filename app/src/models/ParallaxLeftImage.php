@@ -8,11 +8,14 @@ use SilverStripe\Assets\Image;
 use SilverStripe\Assets\File;
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Forms\TextField;
+use SilverStripe\Forms\TextAreaField;
 
-class ParallaxStrip extends Strip
+class ParallaxLeftImage extends Strip
 {
     private static $db = [
         'Title' => 'Varchar(100)',
+        'Description' => 'Text',
+        'ButtonText'  => 'Varchar(100)'
     ];
 
     private static $has_one = [
@@ -27,12 +30,14 @@ class ParallaxStrip extends Strip
         'GridThumbnail'
     ];
 
-    private static $table_name = 'ParallaxStrip';
+    private static $table_name = 'ParallaxLeftImage';
 
     public function getCMSFields() {
         $fields = parent::getCMSFields();
  
         $fields->addFieldToTab('Root.Main', TextField::create('Title'));
+        $fields->addFieldToTab('Root.Main', TextAreaField::create('Description'));
+        $fields->addFieldToTab('Root.Main', TextField::create('ButtonText'));
 
         $fields->addFieldToTab('Root.Main', UploadField::create('Background'));        
 

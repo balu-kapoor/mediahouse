@@ -9,8 +9,8 @@
         <div class="c-page-title c-pull-left">
             <h1 class="c-font-uppercase c-font-bold c-font-white">$BannerTitle</h1>
             <% if $BannerSubTitle %>
-            <a href="index.html#"
-                class="c-action-btn btn btn-lg c-btn-border-2x c-btn-square c-theme-btn c-btn-bold c-btn-uppercase afterSlider">$BannerSubTitle</a>
+            <span
+                class="c-action-btn btn btn-lg c-btn-border-2x c-btn-square c-theme-btn c-btn-bold c-btn-uppercase afterSlider">$BannerSubTitle</span>
             <% end_if %>
             <div class="c-line-center"></div>
         </div>

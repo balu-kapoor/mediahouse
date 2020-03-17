@@ -17,14 +17,14 @@
                         <a href="$FacebookLink"
                             class="socicon-btn socicon-btn-circle socicon-solid c-font-dark-1 c-theme-on-hover"
                             data-original-title="Facebook" data-container="body"><i
-                                class="icon-social-facebook"></i></a>
+                                class="icon-social-facebook" target="_blank"></i></a>
                         <a href="$TwitterLink"
                             class="socicon-btn socicon-btn-circle socicon-solid c-font-dark-1 c-theme-on-hover"
-                            data-original-title="Twitter" data-container="body"><i class="icon-social-twitter"></i></a>
+                            data-original-title="Twitter" data-container="body"><i class="icon-social-twitter target="_blank""></i></a>
                         <a href="$LinkeinLink"
                             class="socicon-btn socicon-btn-circle socicon-solid c-font-dark-1 c-theme-on-hover"
                             data-original-title="LinkedIn" data-container="body"><i
-                                class="icon-social-linkedin"></i></a>
+                                class="icon-social-linkedin" target="_blank"></i></a>
                         <% end_with %>
                     </div>
 

@@ -26377,6 +26377,9 @@ h4.pink-text-stroke.c-main-title {
   .btn.c-btn-border-2x.c-btn-uppercase.btn-lg {     
     display: inline-block;
     white-space: normal;
+    margin-top: 2em;
+  }
+  .post-summary .btn.c-btn-border-2x.c-btn-uppercase.btn-lg {        
     transform: translate(-50%, -50%);
     margin-left: 50%;
 }

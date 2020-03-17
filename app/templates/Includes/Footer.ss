@@ -6,8 +6,12 @@
             <div class="row">
                 <div class="col-md-8 col-sm-6 c-col">
                     <p class="c-copyright c-font-grey c-font-lowercase">&copy; $Year $SiteConfig.Title
-                        <span class="c-font-grey-3">All Rights Reserved.</span> <a href="#">Privacy Policy</a> / <a
-                            href="#">Terms & Conditions</a>
+                        <span class="c-font-grey-3">All Rights Reserved.</span>
+                        <% loop $Menu(1) %>
+                        <% if $ClassName.ShortName == 'Page' && $URLSegment != 'get-started' %>
+                            <a href="$Link">$MenuTitle</a> <% if not $last %> / <% end_if %> 
+                        <% end_if %>
+                        <% end_loop %>
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-6 c-col">

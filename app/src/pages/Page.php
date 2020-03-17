@@ -18,12 +18,15 @@ namespace {
     use Symbiote\GridFieldExtensions\GridFieldAddNewMultiClass;
     use SilverStripe\Forms\GridField\GridFieldConfig;
     use Symbiote\GridFieldExtensions\GridFieldTitleHeader;
+    use SilverStripe\Forms\HTMLEditor\HTMLEditorField;
+
 
     class Page extends SiteTree
     {
         private static $db = [
             'BannerTitle' => 'Varchar(255)',
-            'BannerSubTitle' => 'Varchar(255)',
+            'BannerSubTitle' => 'HTMLText',
+            'BannerButton'  => 'Varchar(255)'
         ];
 
         private static $has_one = [
@@ -44,7 +47,8 @@ namespace {
             $fields = parent::getCMSFields();
             
             $fields->addFieldToTab('Root.Banner', TextField::create('BannerTitle'));
-            $fields->addFieldToTab('Root.Banner', TextField::create('BannerSubTitle'));
+            $fields->addFieldToTab('Root.Banner', HTMLEditorField::create('BannerSubTitle'));
+            $fields->addFieldToTab('Root.Banner', TextField::create('BannerButton'));
             $fields->addFieldToTab('Root.Banner', $banner_image = UploadField::create('BannerImage', 'Banner Image (JPG only)'));
             $fields->addFieldToTab('Root.Banner', $banner_video = UploadField::create('BannerVideo','Banner Video (MP4 only)'));
 

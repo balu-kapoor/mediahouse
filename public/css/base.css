@@ -4197,6 +4197,11 @@ label.control-label {
 .btn.c-btn-border-2x.c-btn-uppercase.btn-xlg {
     padding: 18px 44px 16px;
 }
+.btn.c-btn-border-2x {
+    color: #ffffff;
+    background: #e71f67;
+    border-color: #e71f67;
+}
 .btn + .btn {
     margin-left: 10px;
 }
@@ -6510,7 +6515,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #3f444a;
+    /* color: #3f444a; */
 }
 h1,
 h2,
@@ -6577,7 +6582,7 @@ h2 {
     font-size: 20px;
 }
 h1 {
-    font-size: 22px;
+    /* font-size: 22px; */
 }
 .c-bs-grid-reset-space .row,
 .c-bs-grid-reset-space div[class*=" col-"],
@@ -17580,10 +17585,11 @@ h1 {
     margin: 0;
 }
 .c-content-testimonial-2-slider .c-title {
-    position: absolute;
+    position: inherit;
     top: 30px;
-    left: 45px;
+    margin-left: 30px;
     z-index: 10;
+    word-break: break-word;
     font-size: 17px;
     padding: 4px 10px 2px;
     font-weight: 400;
@@ -19502,7 +19508,7 @@ h1 {
 }
 .c-content-feature-4 .c-feature-content {
     padding: 0;
-    width: 30%;
+    width: 35%;
 }
 .c-content-feature-4 .c-feature-content.c-left {
     float: left;
@@ -24985,8 +24991,8 @@ footer .c-twitter .twitter-footer span {
 #banner .c-line-center {
     background-color: #e71f67;
     height: 3px;
-    margin: 15px auto 15px;
-    width: 30px;
+    margin: 20px auto 20px;
+    width: 35px;
 }
 #banner.overlay-before:before {
     background: rgba(39, 48, 58, 0.51);
@@ -25653,11 +25659,10 @@ fieldset[disabled] .c-theme-btn.c-btn-border-1x.active {
 }
 
 .c-theme-btn.c-btn-border-2x {
-    border-color: #e71f67;
     border-width: 2px;
-    color: #e71f67;
-    background: none;
+    color: #fff;
     border-color: #e71f67;
+    margin-top: 2em;
 }
 .c-theme-btn.c-btn-border-2x.btn-no-focus:focus,
 .c-theme-btn.c-btn-border-2x.btn-no-focus.focus {
@@ -26365,3 +26370,14 @@ h4.pink-text-stroke.c-main-title {
         75% {top:95px;}
         100% {top:100px;}
   }
+  .c-theme-btn.c-btn-border-2x:hover {
+      background: transparent;
+  }
+  .btn.c-btn-border-2x.c-btn-uppercase.btn-lg {     
+    display: inline-block;
+    white-space: normal;
+}
+.contact-info ul {
+    padding: 0;
+    margin: 0;
+}

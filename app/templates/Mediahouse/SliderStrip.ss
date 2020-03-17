@@ -23,7 +23,7 @@
                         data-desktop-small-items="1" data-tablet-items="1" data-auto-play-speed="8000">
                         <div class="item">
                             <div class="c-content-testimonial-2">
-                                <p class="c-position c-theme m-top testimonials">$Description</p>
+                                <p class="c-position c-theme testimonials">$Description</p>
                             </div>
                         </div>
                     </div>

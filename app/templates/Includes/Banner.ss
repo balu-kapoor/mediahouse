@@ -8,11 +8,12 @@
     <div class="container">
         <div class="c-page-title c-pull-left">
             <h1 class="c-font-uppercase c-font-bold c-font-white">$BannerTitle</h1>
-            <% if $BannerSubTitle %>
-            <span
-                class="c-action-btn btn btn-lg c-btn-border-2x c-btn-square c-theme-btn c-btn-bold c-btn-uppercase afterSlider">$BannerSubTitle</span>
-            <% end_if %>
             <div class="c-line-center"></div>
+            <% if $BannerSubTitle %><h3 class="c-font-bold c-font-white">$BannerSubTitle</h3><% end_if %>
+            <% if $BannerButton %>
+            <span
+                class="c-action-btn btn btn-lg c-btn-border-2x c-btn-square c-theme-btn c-btn-bold c-btn-uppercase afterSlider">$BannerButton</span>
+            <% end_if %>
         </div>
     </div>
     <div class="overlay-after"></div>

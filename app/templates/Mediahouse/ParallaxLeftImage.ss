@@ -10,7 +10,7 @@
                         <div class="c-body c-animate">
                             <div class="c-content-title-1 animated wow fadeInDown" data-wow-delay="0.2s">
                                 <h2 class="c-font-uppercase c-font-bold c-font-white">$Title</h2>
-                                <div class="c-line-right"></div>
+                                <div class="c-line-center"></div>
                             </div>
                             <div class="c-content animated wow fadeInDown" data-wow-delay="0.7s">
                                 <p class="c-margin-b-30">$Description</p>                               

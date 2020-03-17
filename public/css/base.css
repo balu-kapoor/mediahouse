@@ -6692,6 +6692,7 @@ h1 {
 }
 .c-margin-b-30 {
     margin-bottom: 30px;
+    font-weight: 500;
 }
 .c-margin-b-40 {
     margin-bottom: 40px;
@@ -25662,7 +25663,7 @@ fieldset[disabled] .c-theme-btn.c-btn-border-1x.active {
     border-width: 2px;
     color: #fff;
     border-color: #e71f67;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 .c-theme-btn.c-btn-border-2x.btn-no-focus:focus,
 .c-theme-btn.c-btn-border-2x.btn-no-focus.focus {
@@ -26376,8 +26377,13 @@ h4.pink-text-stroke.c-main-title {
   .btn.c-btn-border-2x.c-btn-uppercase.btn-lg {     
     display: inline-block;
     white-space: normal;
+    transform: translate(-50%);
+    margin-left: 50%;
 }
 .contact-info ul {
     padding: 0;
     margin: 0;
+}
+.blog-post-meta {
+    margin-top: 15px;
 }

@@ -1,4 +1,4 @@
-<div class="c-content-box c-no-padding">
+<div class="c-content-box c-no-padding strips">
     <div class="c-content-feature-4" style="position: relative;">
         <div
             class="c-bg-parallax right-parallax"
@@ -11,7 +11,7 @@
                 <div class="content">
                     <h2 class="c-font-uppercase c-font-bold c-font-white">$Title</h2>
                     <div class="c-line-center"></div>
-                    $Description
+                    <p>$Description</p>
                 </div>
             </div>
         </div>

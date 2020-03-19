@@ -1,4 +1,4 @@
-<div class="c-content-box c-bg-dark-2 c-size-md">
+<div class="c-content-box c-bg-dark-2 c-size-md strips">
     <div class="container">
         <div class="row">
             <div class="col-md-6 wow animate fadeInLeft">

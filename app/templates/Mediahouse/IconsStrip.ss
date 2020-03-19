@@ -1,4 +1,4 @@
-<section class="icon-services">
+<section class="icon-services strips">
     <div class="container">
 
         <div class="row">

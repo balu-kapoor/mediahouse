@@ -58,7 +58,6 @@
     font-weight: 700;
     font-style: italic;
 }
-
 * {
     letter-spacing: 1px;
 }
@@ -26471,4 +26470,7 @@ h4.pink-text-stroke.c-main-title {
     /* margin: 0; */
     left: 0;
     opacity: 0.5;
+}
+.strips * {
+    font-family: 'Helvetica', Arial, sans-serif;
 }

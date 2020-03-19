@@ -52,11 +52,20 @@ else{
 */
 
 /* NAVIGATION VISIBLE ON SCROLL */
-
+// var body = document.querySelector('.HomePage');
 function homeNav() {
     //show nav when you scroll past 40
     var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
     //alert('Top = ' + top);
+    var hasVerticalScrollbar = $(document).height() > $(window).height() + 40;    
+    if(!hasVerticalScrollbar) {
+      $('.sticky-navigation').stop().animate({"top": '0'});
+      setInterval(() => {
+        document.querySelector('body.HomePage').setAttribute('style', 'padding-top:60px !important');
+      }, 1200);
+      
+      return; 
+    }
     if (top > 40){ 
       $('.sticky-navigation').stop().animate({"top": '0'});
     }
@@ -71,7 +80,7 @@ function normalNav() {
 
 
 //on load, load the correct nav animation
-$(document).ready(function () {
+$(window).on( 'load',function () {
     if (($('.HomePage .sticky-navigation').length)) {
       homeNav();
     }

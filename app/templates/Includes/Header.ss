@@ -25,7 +25,7 @@
                     <ul class="nav navbar-nav navbar-right main-navigation">
 
                         <% loop $Menu(1) %>
-                        <% if $URLSegment != 'privacy-policy' && $URLSegment != 'terms-and-conditions' %>
+                        <% if $URLSegment != 'privacy-policy' && $URLSegment != 'terms-and-conditions' && $ClassName.ShortName != 'HomePage' %>
                         <li class="$LinkingMode"><a href="$Link" title="Go to the $Title page">$MenuTitle</a></li>
                         <% end_if %>
                         <% end_loop %>

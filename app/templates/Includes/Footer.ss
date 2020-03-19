@@ -8,7 +8,7 @@
                     <p class="c-copyright c-font-grey c-font-lowercase">&copy; $Year $SiteConfig.Title
                         <span class="c-font-grey-3">All Rights Reserved.</span>
                         <% loop $Menu(1) %>
-                        <% if $ClassName.ShortName == 'Page' && $URLSegment != 'get-started' %>
+                        <% if $ClassName.ShortName == 'Page' && $URLSegment != 'get-started' || $ClassName.ShortName == 'HomePage' %>
                             <a href="$Link">$MenuTitle</a> <% if not $last %> / <% end_if %> 
                         <% end_if %>
                         <% end_loop %>

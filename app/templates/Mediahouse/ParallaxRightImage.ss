@@ -11,7 +11,7 @@
                 <div class="content">
                     <h2 class="c-font-uppercase c-font-bold c-font-white">$Title</h2>
                     <p>$Description</p>
-                    <span class="parallax-button">$ButtonText</span>
+                    <% if $ButtonText %><span class="parallax-button">$ButtonText</span><% end_if %>
                 </div>
             </div>
         </div>

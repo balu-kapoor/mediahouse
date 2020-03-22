@@ -71,8 +71,8 @@ namespace {
             ->removeComponentsByType(GridFieldAddNewButton::class)
             ->addComponents(
                 new GridFieldAddNewMultiClass(),
-                new GridFieldDeleteAction(),
-                new GridFieldSortableRows('StripID')
+                new GridFieldDeleteAction()
+                // new GridFieldSortableRows('StripID')
             );        
 
             $fields->addFieldToTab('Root.Strips', $grid);

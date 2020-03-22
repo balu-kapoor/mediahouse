@@ -26413,7 +26413,7 @@ h4.pink-text-stroke.c-main-title {
 }
 .left-parallax {
     min-height: 34em;
-    padding: 3rem;
+    padding: 2rem;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -26421,16 +26421,16 @@ h4.pink-text-stroke.c-main-title {
 }
 .left-parallax-box {
     position: relative;
-    background: linear-gradient(240deg, rgb(231, 31, 103, 0.7), #31383c);
+    background: rgb(49, 56, 60, 0.7);
     color: #fff;
     border-radius: 8px;
     font-weight: 500;
-    font-size: 1.2rem;
-    padding: 3rem;
+    font-size: 1rem;
+    padding: 2rem;
 }
 .right-parallax {
     min-height: 34em;
-    padding: 3rem;
+    padding: 2rem;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -26438,12 +26438,12 @@ h4.pink-text-stroke.c-main-title {
 }
 .right-parallax-box {
     position: relative;
-    background: linear-gradient(240deg, rgb(231, 31, 103, 0.7), #31383c);
+    background: rgb(49, 56, 60, 0.7);
     color: #fff;
     border-radius: 8px;
     font-weight: 500;
-    font-size: 1.2rem;
-    padding: 3rem;
+    font-size: 1rem;
+    padding: 2rem;
 }
 .c-line-center {
     width: 40px;
@@ -26472,5 +26472,23 @@ h4.pink-text-stroke.c-main-title {
     opacity: 0.5;
 }
 .strips * {
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+.parallax-button {
+    background: #ff594b;
+    padding: 5px 10px;
+    border: 1px solid #ff594b;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    box-shadow: 0px 3px 0px #252525;  
+    transition: all .3s;  
+}
+.parallax-button:hover {
+    background: transparent;
+    box-shadow: none;
 }

@@ -26492,3 +26492,14 @@ h4.pink-text-stroke.c-main-title {
     background: transparent;
     box-shadow: none;
 }
+h2.c-font-uppercase.c-font-bold.c-font-white:after {
+    border-bottom: 3px solid #e71f67;
+    display: block;
+    margin: 0 auto;
+    content: " ";
+    width: 35px;
+    height: 10px;
+}
+h2.c-font-uppercase.c-font-bold.c-font-white {
+    display: inline-block;
+}

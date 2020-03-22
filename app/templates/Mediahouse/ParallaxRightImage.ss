@@ -10,7 +10,6 @@
             >
                 <div class="content">
                     <h2 class="c-font-uppercase c-font-bold c-font-white">$Title</h2>
-                    <div class="c-line-center"></div>
                     <p>$Description</p>
                     <span class="parallax-button">$ButtonText</span>
                 </div>

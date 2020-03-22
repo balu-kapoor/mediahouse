@@ -19,7 +19,7 @@
                     <div class="owl-theme c-theme owl-single" data-single-item="true" data-desktop-items="1"
                         data-desktop-small-items="1" data-tablet-items="1" data-auto-play-speed="8000">
                         <div class="item">
-                            <div class="c-content-testimonial-2">
+                            <div class="c-content-testimonial-2" style="padding-top: 0;">
                                 <div class="c-title c-font-uppercase" style="margin-left: 0;padding-left:0;">$Title</div>
                                 <p class="c-position c-theme testimonials" style="margin-top: 1.3rem;font-size: 1rem;">$Description</p>
                             </div>

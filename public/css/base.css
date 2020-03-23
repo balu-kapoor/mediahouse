@@ -26502,3 +26502,6 @@ h2.c-font-uppercase.c-font-bold.c-font-white:after {
 h2.c-font-uppercase.c-font-bold.c-font-white {
     display: inline-block;
 }
+p.c-position.c-theme.testimonials {
+    font-size: 1rem;
+}
